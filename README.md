@@ -9,4 +9,3 @@ Drag-and-Drop Interface: Seamlessly move tasks between columns and reorder them 
 
 Persistent Storage: Tasks and columns are saved locally using custom hooks for localStorage, ensuring data persists across sessions.
 
-Responsive Design: The interface is optimized for various screen sizes, offering a smooth user experience on both desktop and mobile devices.
