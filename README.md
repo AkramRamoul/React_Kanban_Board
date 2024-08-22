@@ -9,3 +9,4 @@ Drag-and-Drop Interface: Seamlessly move tasks between columns and reorder them 
 
 Persistent Storage: Tasks and columns are saved locally using custom hooks for localStorage, ensuring data persists across sessions.
 
+This project is deployed via GitHub Pages. Check out the live demo [here](https://akramramoul.github.io/React_Kanban_Board/).
