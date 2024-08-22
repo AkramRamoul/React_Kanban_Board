@@ -1,50 +1,9 @@
-# React + TypeScript + Vite
+#Kanban Board Application
+This repository contains a Kanban board application built with React, utilizing the @dnd-kit library for drag-and-drop functionality. The app allows users to create, organize, and manage tasks across multiple columns, providing a simple yet effective tool for project management.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Dynamic Columns and Tasks: Easily add, rename, and delete columns and tasks.
+Drag-and-Drop Interface: Seamlessly move tasks between columns and reorder them within the same column.
+Persistent Storage: Tasks and columns are saved locally using custom hooks for localStorage, ensuring data persists across sessions.
+Responsive Design: The interface is optimized for various screen sizes, offering a smooth user experience on both desktop and mobile devices.
